@@ -1,0 +1,15 @@
+{
+	"name" : "alsar/common",
+	"type" : "library",
+	"license" : [
+		"MIT"
+	],
+	"require" : {
+		"php" : ">=5.4"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Alsar" : "src"
+		}
+	}
+}
