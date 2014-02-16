@@ -6,7 +6,7 @@ abstract class Enum
     /**
      * @var mixed
      */
-    private $value;
+    protected $value;
 
     /**
      * @param mixed $value
