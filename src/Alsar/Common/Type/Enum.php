@@ -4,6 +4,11 @@ namespace Alsar\Common\Type;
 abstract class Enum
 {
     /**
+     * @var mixed
+     */
+    private $value;
+
+    /**
      * @param mixed $value
      */
     final public function __construct($value)
@@ -18,7 +23,7 @@ abstract class Enum
     }
 
     /**
-     * @return mixed
+     * @return string
      */
     final public function __toString()
     {
